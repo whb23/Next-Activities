@@ -1,0 +1,102 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+  <!--logo-->
+    <svg width="200px" height="200px">
+      <image xlink:href="Source\SVG\logo.svg" width="200px" height="200px"></image>
+    </svg>
+    <!--Titulo-->
+    <h1>Curriculum Vitae</h1>
+    <!--Datos Personales-->
+    <h2>William Hurtado</h2>
+    <h3>23 de Marzo 1988</h3>
+    <h3>Puerto Plata, Republica Dominicana</h3>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="">Educacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+<!--Educacion-->
+    <h2 id="Educacion">Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Descripcion</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2006</td>
+          <td>Ingenieria Electromecanica</td>
+          <td>PUCMM</td>
+          <td>Santiago, RD</td>
+          <td align="center">Si</td>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>Moldeo Universal por inyeccion</td>
+          <td>HDI Inc</td>
+          <td>Santo Domingo, RD</td>
+          <td align="center">Si</td>
+        </tr>
+
+        <tr>
+          <td>2013</td>
+          <td>Excel Avanzado</td>
+          <td>Capex</td>
+          <td>Santiago, RD</td>
+          <td align="center">Si</td>
+        </tr>
+
+        <tr>
+          <td>2018</td>
+          <td>Desarrollador Web</td>
+          <td>Next University</td>
+          <td>Online</td>
+          <td align="center">No</td>
+        </tr>
+      </tbody>
+    </table>
+  <!--Agregar estudios-->
+    <h2>Agregar Estudios</h2>
+    <form>
+        <!--Lista-->
+      <label for="Fecha"><strong>Año</strong></label>
+      <select name="Fecha">
+        <option value="">2014</option>
+        <option value="">2015</option>
+        <option value="">2016</option>
+        <option value="">2017</option>
+        <option value="">2018</option>
+      </select>
+      <br>
+        <!--Cuadro Texto-->
+        <label for="Institución"><strong>Institución</strong></label>
+        <input type="text" name="Institución" required>
+        <br>
+      <!--Cuadro Texto largo-->
+      <label for="lugar"><strong>Lugar</strong></label>
+      <textarea name="Lugar" rows="2" cols="26"></textarea>
+      <br><br>
+      <input type="submit"  value="Enviar">
+
+    </form>
+  </body>
+  <footer>
+    <!--Informacion de contacto-->
+    <p>Correo: <a href="mailto:hurtado.william23@gmail.com?subject=contacto">hurtado.william23@gmail.com</a></p>
+    <p>Tel. 809-333-3333</p>
+    <p>Facebook: William Hurtado</p>
+  </footer>
+</html>
